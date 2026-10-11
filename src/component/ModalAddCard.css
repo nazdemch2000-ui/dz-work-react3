@@ -1,0 +1,69 @@
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.modalCard {
+  background-color: white;
+  width: 100%;
+  max-width: 450px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modalCard h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.modalCard form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modalCard input,
+.modalCard textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.modalCard textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.modalButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.modalButtons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+}
+
+.modalButtons button[type="button"] {
+  background-color: #6b7280;
+}
+
+.modalButtons button:hover {
+  opacity: 0.85;
+}

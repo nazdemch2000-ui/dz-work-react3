@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #222;
+}
+
+#root {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (max-width: 600px) {
+  #root {
+    padding: 10px;
+  }
+
+  #conteiner {
+    margin: 15px auto;
+    padding: 0 5px;
+  }
+
+  .postCard {
+    padding: 15px;
+  }
+
+  .cardTitle {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,34 @@
+#conteinet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 25px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#userAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+#userName {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #222222;
+}
+
+#userText {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+}
