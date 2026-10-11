@@ -33,7 +33,7 @@
   border-radius: 8px;
 }
 
-.postCard button {
+.postCard .deleteButton {
   align-self: flex-start;
   background-color: #dc3545;
   color: white;
@@ -46,4 +46,23 @@
 
 .postCard button:hover {
   background-color: #b02a37;
+}
+
+.likeButton {
+  background: transparent;
+  border: none;
+  color: #777;
+  font-size: 28px;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    color 0.2s;
+}
+
+.likeButton:hover {
+  transform: scale(1.2);
+}
+
+.likeButton.liked {
+  color: #e63946;
 }

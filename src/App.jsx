@@ -9,7 +9,7 @@ function App() {
         img={"./public/blank-profile-picture-973460_1280.png"}
         text={"asdadasdasdass"}
       />
-      ,
+
       <PostList />
     </div>
   );

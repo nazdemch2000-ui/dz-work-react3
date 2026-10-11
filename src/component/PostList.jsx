@@ -54,7 +54,7 @@ class PostList extends React.Component {
         )}
         <span>{this.state.postlist.length === 0 ? "List is empty" : ""}</span>
 
-        <ul id="cardList">
+        <div id="cardList">
           {this.state.postlist.map((card) => (
             <PostCard
               key={card.id}
@@ -65,7 +65,7 @@ class PostList extends React.Component {
               onDelete={() => this.delBtn(card.id)}
             />
           ))}
-        </ul>
+        </div>
       </div>
     );
   }
